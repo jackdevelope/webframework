@@ -96,10 +96,11 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.2.1</version>
         </dependency>
+        <!-- 解决跨域问题 -->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <groupId>com.thetransactioncompany</groupId>
+            <artifactId>cors-filter</artifactId>
+            <version>2.5</version>
         </dependency>
     </dependencies>
     <!-- 在build中 我们需要指定一下项目的JDK编译版本,maven默认使用1.5版本进行编译
